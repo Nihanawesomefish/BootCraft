@@ -33,19 +33,19 @@ function new_image(get_image){
 window.addEventListener("keydown",mykeydown);
 function mykeydown(e){
 keypress=e.keyCode;
-if(keypress=='51'){
+if(keypress=='65'){
 left();
 }
-if(keypress=='49'){
+if(keypress=='87'){
 up();
 }
-if(keypress=='52'){
+if(keypress=='68'){
 right();
 }
-if(keypress=='50'){
+if(keypress=='83'){
 down();
 }
-if(keypress=='87'){
+if(keypress=='66'){
 new_image("wall.jpg");
 }
 if(keypress=='71'){
@@ -63,9 +63,8 @@ new_image('roof.jpg');
 if(keypress=='89'){
 new_image('yellow_wall.png');
 }
-if(keypress=='68'){
-new_image('dark_green.png');
-}
+
+
 if(keypress=='85'){
 new_image('unique.png');
 }
